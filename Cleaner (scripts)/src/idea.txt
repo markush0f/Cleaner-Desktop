@@ -1,0 +1,2 @@
+Hacer una interfaz muy sencilla la cual permita limpiar 
+archivos de los directorios que desee el usuario

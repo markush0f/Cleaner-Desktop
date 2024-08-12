@@ -1,0 +1,42 @@
+:root {
+    --scheme: light dark;
+    color-scheme: var(--scheme);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: system-ui;
+}
+
+/* Estilo para el contenedor de los divs usando CSS Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+    grid-gap: 10px; /* Espacio entre los divs */
+    padding: 10px;
+}
+
+/* Estilo para cada div */
+.grid-container div {
+    background-color: #3498db; /* Color de fondo */
+    color: white; /* Color del texto */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    font-size: 24px; /* Tamaño del texto */
+    height: 100px; /* Altura de los divs */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+
+/* @media (max-width: 600px) {
+    .grid-container div {
+        height: 80px;
+        font-size: 20px;
+    }
+} */

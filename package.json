@@ -1,0 +1,19 @@
+{
+  "name": "cleaner",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "type": "module" ,
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Markus Abramian Medina",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
+    "copyfiles": "^2.4.1",
+    "electron": "^31.3.1",
+    "eslint": "^9.8.0",
+    "globals": "^15.9.0"
+  }
+}
